@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+
 import "./App.css";
 import SearchIcon from "./search.svg";
 import { useEffect, useState } from "react";
@@ -37,7 +37,7 @@ const App = () => {
 
   return (
     <div className="app">
-      <h1>Movietime</h1>
+      <h1>MoviesNation</h1>
       <div className="search">
         <input
           placeholder="Search movies"
@@ -61,7 +61,7 @@ const App = () => {
         </div>
       ) : (
         <div className="empty">
-          <h2>No movies found</h2>
+          <h2>try again divyank</h2>
         </div>
       )}
     </div>
